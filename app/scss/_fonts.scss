@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Cheque';
+    src: local('Cheque-Regular'), url('../fonts/chequeregular.woff2') format('woff2'), url('../fonts/chequeregular.woff') format('woff'), url('../fonts/chequeregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cheque';
+    src: local('Cheque-Black'), url('../fonts/chequeblack.woff2') format('woff2'), url('../fonts/chequeblack.woff') format('woff'), url('../fonts/chequeblack.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa'), url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa'), url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
