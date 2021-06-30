@@ -43,15 +43,8 @@ var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 }).addTo(map);
 
 
-var baseMaps = {
-  OSM: osmLayer,
-  Spinal: spinalLayer,
-};
 
-var marker2 = L.marker([60.025502, 30.341760], {
-  
-}).addTo(map);
-marker2.addTo(map);
+L.marker([60.025502, 30.341760]).addTo(map)
 
 
 
